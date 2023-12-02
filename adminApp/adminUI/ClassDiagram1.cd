@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="adminUI.AdminDashboard">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAABAACIAAQAgIACIAQAigQgAAAAAACAAAggACBQ=</HashCode>
+      <FileName>AdminDashboard.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="departmentService" />
+      <Field Name="employeeService" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="departments" />
+      <Field Name="departmentsList" />
+      <Field Name="employees" />
+      <Field Name="employeesList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="adminUI.Department">
+    <Position X="4.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Department.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="adminUI.DepartmentService">
+    <Position X="10.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAABAAAIAA=</HashCode>
+      <FileName>DepartmentService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="client" />
+      <Field Name="clientHandler" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="adminUI.EditEmployee">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhAgBCAAADAAAACJSBACAAEAAAAAIIAAAAAAABQ=</HashCode>
+      <FileName>EditEmployee.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="employee" />
+      <Field Name="employeeService" />
+      <Field Name="loginRequest" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="employeeNotRoles" />
+      <Field Name="employeeRoles" />
+      <Field Name="loginRequests" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="adminUI.Employee">
+    <Position X="10.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="adminUI.EmployeeService">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCAAAAQAAAAAAAAAAAAAAAAAAgAgAAAAQBEAAAAA=</HashCode>
+      <FileName>EmployeeService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="client" />
+      <Field Name="clientHandler" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="adminUI.Form1">
+    <Position X="1.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAAABAACAAABAAAACIAAACIAQAAAAAABAAAAAAABA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="employeeService" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="employees" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="adminUI.LoginRequest">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>LoginRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="adminUI.ManageEmployee">
+    <Position X="13.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAgBAACAAABAgIACIAAACgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManageEmployee.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="employees" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="adminUI.Role">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Role.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Net.Http.HttpClient" Collapsed="true">
+    <Position X="10.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Net.Http.HttpClientHandler" Collapsed="true">
+    <Position X="4.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
