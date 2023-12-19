@@ -6,4 +6,16 @@ using System.Windows.Forms;
 
 namespace adminUI
 {
+    
+    internal static class Program 
+    { 
+        [STAThread]
+        static void Main()
+        {
+            Application.Run(new Form1());
+        }
+    }
 }
+
+
+
